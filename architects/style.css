@@ -14,6 +14,10 @@
   display: flex;
 }
 
+.text-primary {
+  color: #ff900e;
+}
+
 /* dark 02 */
 .text-gray {
   color: #424242;
@@ -124,10 +128,6 @@ header {
 .feature-title {
   font-size: 2rem;
   font-weight: 700;
-}
-
-#features {
-  color: #ff900e;
 }
 
 .quick-list {
