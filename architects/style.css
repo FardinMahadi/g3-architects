@@ -122,7 +122,7 @@ header {
 }
 
 .teams .our-features {
-  max-width: 20rem;
+  max-width: 30rem;
 }
 
 .feature-title {
@@ -132,6 +132,41 @@ header {
 
 .quick-list {
   font-weight: 500;
+}
+
+/* some facts related styles */
+.facts-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 60rem;
+}
+
+.fact-card {
+  border: 1px solid #ff900e;
+  max-width: 10rem;
+  border-radius: 0.5rem;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fact-number {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 1rem 0 0 0;
+  padding: 0;
+}
+
+.fact-name {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.fact-description {
+  max-width: 30rem;
 }
 
 /* responsive media query */
