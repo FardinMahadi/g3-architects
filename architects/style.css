@@ -286,8 +286,8 @@ header {
 
   #experience-badge {
     padding: 1rem;
-    margin-top: -4rem;
-    margin-left: -4rem;
+    margin-top: 0;
+    margin-left: 0;
     font-size: 0.5rem;
   }
 
